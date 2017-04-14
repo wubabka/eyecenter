@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "GothamPto", "Tahoma", sans-serif;
+  font-weight: normal;
+  color: $color-brown;
+  background-color: white; // max-width: 1600px;
+  // outline: 1px solid black;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button {
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+  outline: none;
+}
+// textarea {
+//   border: none;
+//   background-color: transparent;
+//   resize: none;
+//   outline: none;
+//   font-family: inherit;
+// }
+// ul {
+//   list-style: none;
+// }
+// input {
+//   outline: none;
+//   font-family: inherit;
+// }
+// input::-webkit-contacts-auto-fill-button {
+//   visibility: hidden;
+//   display: none;
+//   pointer-events: none;
+//   position: absolute;
+//   right: 0;
+// }
+// @media (min-width: 768px) {
+//   body {
+//     width: auto;
+//     // max-width: 768px;
+//     margin: 0 auto;
+//   }
+// }
+// @media (min-width: 1150px) {
+//   body {
+//     width: auto;
+//     // max-width: 1150px;
+//     margin: 0 auto;
+//   }
+// }

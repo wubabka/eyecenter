@@ -1,0 +1,35 @@
+.main-nav {
+  display: flex;
+  margin-top: 2px;
+}
+
+.main-nav__link {
+  margin-right: 28px;  
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.65px;
+  color: rgba(33, 33, 33, 1);
+}
+
+.main-nav__items {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 2px;
+}
+
+.main-nav__search {
+  margin-right: 54px;
+}
+
+.main-nav__cart {
+  margin-right: 20px;
+}
+
+.main-nav__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1.65px;
+  color: rgba(33, 33, 33, 1);
+}

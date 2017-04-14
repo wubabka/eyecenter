@@ -1,0 +1,74 @@
+.category {
+  padding: 0 150px;
+  background-color: rgba(242, 235, 230, 1);
+}
+
+.category__items {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.8%;
+  margin-right: 2.2%;
+  padding-bottom: 237px;
+}
+
+.category__photo {
+  margin-bottom: 74px;
+  opacity: 0.99;
+}
+
+.category__photo--women::before {
+  content: "";
+  position: absolute;
+  top: 327px;
+  left: 145px;
+  width: 647px;
+  height: 110px;
+  background-image: url(/img/women@1x.png);
+  z-index: -1;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .category__photo--women::before {
+    background-image: url(/img/women@2x.png);
+    background-size: 646px auto;
+  }
+}
+
+.category__photo--men::before {
+  content: "";
+  position: absolute;
+  top: 329px;
+  right: 309px;
+  width: 337px;
+  height: 105px;
+  background-image: url(/img/men@1x.png);
+  z-index: -1;
+}
+
+@media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+  .category__photo--men::before {
+    background-image: url(/img/men@2x.png);
+    background-size: 336px auto;
+  }
+}
+
+.category__container-link {
+  margin-left: 26.3%;
+}
+
+.category__link {
+  margin-right: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 3.1px;
+  color: $color-brown;
+}
+
+.category__link--separator::after {
+  content: "|";
+  position: absolute;
+  width: 2px;
+  margin-left: 12px;
+  color: #dbc9bc;
+}

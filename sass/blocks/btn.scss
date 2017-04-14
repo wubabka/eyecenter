@@ -1,0 +1,40 @@
+.btn {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid white;
+  color: white;
+  box-sizing: border-box;
+}
+
+.btn:hover {
+  transition: all 0.3s ease;
+}
+
+.btn:not(:hover) {
+  transition: all 0.5s ease;
+}
+
+.btn:active {
+  color: rgb(124, 124, 124);
+}
+
+.btn__offers {
+  margin-top: 26px;
+  padding: 27px 0;
+  letter-spacing: 3px;
+}
+
+.btn__offers::after {
+  content: "";
+  position: absolute;
+  bottom: 35px;
+  right: 37px;
+  width: 6px;
+  height: 11px;
+  background-image: url(/img/arrow.svg);
+}
