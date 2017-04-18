@@ -8,7 +8,6 @@
   text-transform: uppercase;
   border: 1px solid white;
   color: white;
-  box-sizing: border-box;
 }
 
 .btn:hover {
@@ -29,12 +28,41 @@
   letter-spacing: 3px;
 }
 
-.btn__offers::after {
+.btn__offers::after,
+.btn__product::after,
+.btn__banners::after {
   content: "";
   position: absolute;
-  bottom: 35px;
+  bottom: 33px;
   right: 37px;
   width: 6px;
   height: 11px;
-  background-image: url(/img/arrow.svg);
+  background-image: url(/img/arrow.png);
+}
+
+.btn__product {
+  position: relative;
+  margin: auto;
+  margin-top: 112px;
+  padding: 27px 0;
+  width: 309px;
+  letter-spacing: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  color: rgba(33, 33, 33, 1);
+}
+
+.btn__product::after {
+  background-image: url(/img/arrow-black.png);
+}
+
+.btn__banners {
+  width: 300px;
+  margin-left: -18px;
+  margin-top: 26px;
+  padding: 27px 0;
+  letter-spacing: 3px;
+}
+
+.btn__banners::after {
+  right: 5px;
 }

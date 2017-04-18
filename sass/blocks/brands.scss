@@ -1,0 +1,60 @@
+.brands {
+  position: relative;
+  padding: 0 150px;
+  margin-bottom: 105px;
+  background-color: rgba(229, 229, 229, 1);
+}
+
+.brands::before {
+  content: "";
+  position: absolute;
+  top: -72px;
+  left: 65px;
+  width: 18px;
+  height: 169px;
+  background-image: url(/img/brands.png);
+}
+
+.brands__items {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.brands__item {
+  width: 268px;
+  text-align: center;
+}
+
+.brands__photo {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.brands__photo--rayban {
+  padding-top: 98px;
+  padding-bottom: 93px;
+}
+
+.brands__photo--carrera {
+  padding-top: 123px;
+  padding-bottom: 118px;
+}
+
+.brands__photo--persol {
+  padding-top: 88px;
+  padding-bottom: 89px;
+}
+
+.brands__photo--gucci {
+  padding-top: 115px;
+  padding-bottom: 110px;
+}
+
+.brands__text {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
